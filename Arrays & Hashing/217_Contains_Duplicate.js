@@ -36,8 +36,8 @@ var containsDuplicate_quicksort = function (nums) {
   return false;
 };
 
-// Time: O(1), Space: O(n)
+// Time: O(n), Space: O(n)
 var containsDuplicate_set = function (nums) {
-  const set = new Set(nums); // S=O(n)
+  const set = new Set(nums); // T=O(n), S=O(n)
   return set.size === nums.length;
 };
