@@ -22,7 +22,7 @@ var isAnagram_quicksort = function (s, t) {
 };
 
 // Time: O(n), Space: O(26)
-var isAnagram_ASCII_code = function (s, t) {
+var isAnagram_ASCIICode = function (s, t) {
   if (s.length !== t.length) return false;
 
   const arr = new Array(26).fill(0);

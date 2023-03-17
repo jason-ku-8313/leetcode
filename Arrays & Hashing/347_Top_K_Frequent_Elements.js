@@ -13,7 +13,7 @@
  * @return {number[]}
  */
 // Time: O(klogn), Space: O(n)
-var topKFrequent_map_and_quicksort = function (nums, k) {
+var topKFrequent_map_quickSort = function (nums, k) {
   const map = new Map(); // S=O(n)
 
   // T=O(n)
@@ -28,7 +28,7 @@ var topKFrequent_map_and_quicksort = function (nums, k) {
 };
 
 // Time: O(n), Space: O(n)
-var topKFrequent_map_and_bucket_sort = function (nums, k) {
+var topKFrequent_map_bucketSort = function (nums, k) {
   const map = new Map(); // S=O(n)
 
   // T=O(n)

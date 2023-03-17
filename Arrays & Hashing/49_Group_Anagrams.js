@@ -12,7 +12,7 @@
  * @return {string[][]}
  */
 // Time: O(nlogn), Space: O(n)
-var groupAnagrams_quicksort_and_map = function (strs) {
+var groupAnagrams_quickSort_map = function (strs) {
   const map = new Map(); // S=O(n)
 
   // T=O(n)
@@ -28,7 +28,7 @@ var groupAnagrams_quicksort_and_map = function (strs) {
 };
 
 // Time: O(nm), Space: O(n)
-var groupAnagrams_ASCII_code_and_map = function (strs) {
+var groupAnagrams_ASCIICode_map = function (strs) {
   const map = new Map(); // S=O(n)
 
   // T=O(nm)

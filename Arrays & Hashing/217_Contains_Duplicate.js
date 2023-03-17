@@ -26,7 +26,7 @@ var containsDuplicate_bruteForce = function (nums) {
 };
 
 // Time: O(nlogn), Space: O(1)
-var containsDuplicate_quicksort = function (nums) {
+var containsDuplicate_quickSort = function (nums) {
   nums.sort(); // Quick Sort: T=O(nlogn)
   for (let i = 0; i < nums.length - 1; i++) {
     if (nums[i] === nums[i + 1]) {
