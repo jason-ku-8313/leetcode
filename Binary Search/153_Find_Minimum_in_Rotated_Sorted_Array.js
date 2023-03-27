@@ -19,11 +19,11 @@ var findMin_binarySearch = function (nums) {
 
   // T=O(logn)
   while (left < right) {
-    const middle = ~~((right - left) / 2) + left;
-    if (nums[middle] > nums[right]) {
-      left = middle + 1;
+    const mid = ~~((right + left) / 2);
+    if (nums[mid] > nums[right]) {
+      left = mid + 1;
     } else {
-      right = middle;
+      right = mid;
     }
   }
   return nums[right];
